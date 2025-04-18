@@ -3,14 +3,12 @@ import gradio as gr
 from einops import rearrange
 from typing import Optional, Tuple
 import numpy as np
+from typing import Optional
+from importlib.metadata import version
+
 from tts_webui.decorators.gradio_dict_decorator import dictionarize
 from tts_webui.utils.audio_array_to_sha256 import audio_array_to_sha256
 from tts_webui.utils.randomize_seed import randomize_seed_ui
-
-from tts_webui.history_tab.save_to_favorites import save_to_favorites
-
-from typing import Optional
-from importlib.metadata import version
 from tts_webui.history_tab.save_to_favorites import save_to_favorites
 from tts_webui.utils.list_dir_models import model_select_ui, unload_model_button
 from tts_webui.utils.randomize_seed import randomize_seed_ui
