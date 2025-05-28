@@ -14,7 +14,6 @@ def extension__tts_generation_webui():
     return {
         "package_name": "extension_audiocraft",
         "name": "Audiocraft",
-        "version": "0.0.1",
         "requirements": "git+https://github.com/rsxdalv/extension_audiocraft@main",
         "description": "Audiocraft provides MusicGen and MAGNeT models for high-quality music and audio generation",
         "extension_type": "interface",
