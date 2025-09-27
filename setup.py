@@ -3,7 +3,7 @@ import setuptools
 setuptools.setup(
     name="tts_webui_extension.audiocraft",
     packages=setuptools.find_namespace_packages(),
-    version="0.0.2",
+    version="0.0.3",
     author="rsxdalv",
     description="Audiocraft provides MusicGen and MAGNeT models for high-quality music and audio generation",
     url="https://github.com/rsxdalv/tts_webui_extension.audiocraft",

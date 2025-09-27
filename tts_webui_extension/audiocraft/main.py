@@ -1,6 +1,6 @@
 import gradio as gr
-from extension_audiocraft.magnet.magnet_tab import magnet_tab
-from extension_audiocraft.musicgen.musicgen_tab import musicgen_tab
+from .magnet.magnet_tab import magnet_tab
+from .musicgen.musicgen_tab import musicgen_tab
 
 
 def ui():
