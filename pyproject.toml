@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tts_webui_extension.audiocraft"
+version = "0.0.3"
+description = "Audiocraft provides MusicGen and MAGNeT models for high-quality music and audio generation"
+authors = [
+    {name = "rsxdalv"}
+]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "audiocraft @ https://github.com/rsxdalv/audiocraft/releases/download/v1.4.0a1/audiocraft-1.4.0a1-py3-none-any.whl",
+    "spacy>=3.7.6",
+    "numpy<2",
+]
+
+[project.urls]
+Homepage = "https://github.com/rsxdalv/tts_webui_extension.audiocraft"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+# This will find all namespace packages automatically
+namespaces = true
