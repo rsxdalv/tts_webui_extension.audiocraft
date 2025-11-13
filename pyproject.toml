@@ -16,7 +16,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "audiocraft @ https://github.com/rsxdalv/audiocraft/releases/download/v1.4.0a1/audiocraft-1.4.0a1-py3-none-any.whl",
+    "tts-webui.audiocraft>=1.4.0a2",
     "spacy>=3.7.6",
     "numpy<2",
 ]
