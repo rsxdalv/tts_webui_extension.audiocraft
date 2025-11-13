@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tts_webui_extension.audiocraft"
-version = "0.0.3"
+version = "0.0.4"
 description = "Audiocraft provides MusicGen and MAGNeT models for high-quality music and audio generation"
 authors = [
     {name = "rsxdalv"}
