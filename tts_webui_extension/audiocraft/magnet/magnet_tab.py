@@ -25,7 +25,7 @@ from tts_webui.extensions_loader.decorator_extensions import (
 )
 
 
-AUDIOCRAFT_VERSION = version("audiocraft")
+AUDIOCRAFT_VERSION = version("tts-webui.audiocraft")
 
 
 class MagnetGenerationParams(TypedDict):

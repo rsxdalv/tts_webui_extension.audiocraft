@@ -30,7 +30,7 @@ from tts_webui.extensions_loader.decorator_extensions import (
 )
 from tts_webui.utils.save_json_result import save_json_result
 
-AUDIOCRAFT_VERSION = version("audiocraft")
+AUDIOCRAFT_VERSION = version("tts-webui.audiocraft")
 
 
 def melody_to_sha256(melody: Optional[Tuple[int, np.ndarray]]) -> Optional[str]:
